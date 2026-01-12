@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#artical{
+    background-color: green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#container{
+    border: 5px rgb(219, 80, 80) ;
+    border-style: double;
+}
+.Box{
+height: 100px;
+width: 100px;
+display: inline-block;
+border: 2px black double;
+}
+#first{
+    background-color: blueviolet;
+}
+#second{
+    background-color: rgb(43, 141, 226);
+    position: fixed;
+    right: 20px;
+}
+#third{
+    background-color: rgb(211, 226, 43);
+}

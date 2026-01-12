@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    flex-wrap: wrap;
+ border: 5px double black;
+    height: 50px;
+    width: 20%;
+    line-height: 50px;
+   text-align: center;
+   text-transform: capitalize;
+    background-color: coral;
+    text-decoration: none;
+    display: inline-block;
+} 
+.image{
+    background-color: rgb(224, 165, 165);
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 200px;
+    width: 700px;
+    background-color: aqua;
+}
+img{
+    height: 200px; 
+}
+.Box{
+    height: 100px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#first{
+    background-color: darksalmon;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+#second{
+    background-color: darkkhaki;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+#third{
+    background-color: darkgray;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    flex-shrink: 2;
+
+}
+#green{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+@media screen and (min-width:300px) and (max-width:400px){
+    #green{
+    background-color: rgb(12, 30, 229);
+}
+}
+@media screen and (min-width:400px) {
+ #green{
+    background-color: rgb(229, 37, 12);
+} 
+}
